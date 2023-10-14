@@ -116,3 +116,11 @@ body{
 width: 65vh;
 height: 40vh;
 }
+h2{
+    color: #fff;
+
+}
+.projects{
+    width: 90%;
+    margin: auto;
+}
