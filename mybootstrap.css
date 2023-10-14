@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(17, 16, 16);
+   margin-bottom: 20px;
+}
+
+.top-container{
+   display: flex;
+   justify-content: space-around;
+    
+}
+.top-body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://cdn.decoist.com/wp-content/uploads/2021/06/Black-house-in-the-woods-with-car-and-pool-72730-1536x960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px 0;
+    margin-left: 100px;
+    color: #fff;
+    padding: 20px 0;
+}
+.main-text span{
+    color: rgb(240, 65,50);
+    
+}
+.main-text button{
+    padding: 10px 0px;
+    border: 1px solid rgb(240, 65,50);
+    color: rgb(240, 65,50);
+    background-color: transparent;
+    width: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+     }
+    .main-text button:hover{
+        color: rgb(240, 65,50) ;
+    }
+    #input-search{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(17, 16, 16);
+        margin-top: 80px;
+        width: 180%;
+        padding: 0 20px;
+        margin-left: 100px;
+        padding-bottom: 10px;
+        gap: 30px;
+    }
+    #input-search button{
+        padding: 10px 0px;
+        width: 30%;
+    }
+    #input-search input{
+        width: 50%;
+        border: none;
+        padding: 10px 0;
+    }
+    #input-search select{
+        width: 20%;
+        padding: 10px 0;
+    }
+    .my-select{
+        display: flex;
+        padding: 50px;
+    }
+
+    .form-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column;
+        background-color: #ffffff;
+        align-items:center;
+        /* width: 80%; */
+        margin: auto;
+        color: black;
+   }
+.input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    }
+.middle{
+    background-color: #fff;
+    }
+.cards-mine{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    padding: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cards-mine img{
+width: 65vh;
+height: 40vh;
+}
